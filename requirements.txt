@@ -2,3 +2,4 @@ pandas
 faker
 openpyxl
 psycopg2-binary
+sqlalchemy
