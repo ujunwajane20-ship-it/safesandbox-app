@@ -8,6 +8,17 @@ fake = Faker()
 
 st.set_page_config(page_title="SafeSandbox Pro", page_icon="🔒", layout="wide")
 st.title("🔒 SafeSandbox Pro: Data Anonymizer")
+# Create a professional pricing sidebar panel
+with st.sidebar:
+    st.header("👑 Go Premium")
+    st.write("Unlock unlimited database record scrubbing, multi-table syncing, and production environment exports.")
+    
+    # Your live Gumroad payment checkout link
+   st.link_button("🚀 Upgrade to Pro ($29/mo)", "https://casmir34.gumroad.com/l/safesandbox-pro")
+    
+    st.divider()
+    st.info("💡 Standard Workspace Session Mode.")
+
 
 tab1, tab2 = st.tabs(["📁 File Upload Mode", "🗄️ Live Cloud Database Mode"])
 
